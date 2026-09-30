@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trueque U</title>
+  <style>
+    /* Colores principales de la marca */
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f2f8f5;
+      color: #1d2b25;
+    }
+
+    .contenedor {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    header {
+      background-color: #1f8a5b;
+      color: white;
+      padding: 50px 0 60px 0;
+    }
+
+    .logo {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .eslogan {
+      font-size: 22px;
+      margin-top: 10px;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: white;
+      color: #1f8a5b;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    section {
+      padding: 30px 0;
+    }
+
+    h2 {
+      color: #1f8a5b;
+    }
+
+    /* Tarjetas de los pasos */
+    .pasos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .tarjeta {
+      flex: 1;
+      min-width: 220px;
+      background-color: white;
+      border: 1px solid #cfe5da;
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .tarjeta h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      color: #5f7a6d;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="contenedor">
+      <p class="logo">Trueque U</p>
+      <p class="eslogan">Lo que a ti ya no te sirve, a otro estudiante le salva el semestre.</p>
+      <a class="boton" href="#como-funciona">Ver cómo funciona</a>
+    </div>
+  </header>
+
+  <main class="contenedor">
+
+    <!-- Propósito del producto -->
+    <section>
+      <h2>Propósito</h2>
+      <p>
+        Trueque U permite que los estudiantes de una misma universidad
+        <strong>intercambien objetos y materiales</strong> (libros, calculadoras,
+        batas de laboratorio, materiales de maqueta, apuntes) sin gastar dinero
+        y con gente de confianza de su propio campus.
+      </p>
+    </section>
+
+    <!-- Problema que resuelve -->
+    <section>
+      <h2>El problema</h2>
+      <p>
+        Cada semestre compramos materiales que usamos una sola vez y después quedan
+        guardados en casa. Al mismo tiempo, un compañero de un semestre menor está
+        buscando justo eso y tiene que comprarlo nuevo. Los grupos de "vendo/cambio"
+        en redes están desordenados y no sabes si la otra persona es de tu universidad.
+      </p>
+    </section>
+
+    <!-- Cómo funciona -->
+    <section id="como-funciona">
+      <h2>¿Cómo funciona?</h2>
+      <div class="pasos">
+        <div class="tarjeta">
+          <h3>1. Publica</h3>
+          <p>Subes una foto del objeto, su estado y qué te gustaría recibir a cambio.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>2. Busca</h3>
+          <p>Filtras por carrera o materia y encuentras lo que necesitas este semestre.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>3. Intercambia</h3>
+          <p>Acuerdan el trueque y se encuentran en un punto seguro dentro del campus.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Para quién es -->
+    <section>
+      <h2>¿Para quién es?</h2>
+      <p>
+        Estudiantes universitarios, sobre todo de los primeros semestres, que necesitan
+        materiales caros y cuentan con un presupuesto ajustado.
+      </p>
+    </section>
+
+    <!-- Justificación personal -->
+    <section>
+      <h2>¿Por qué puedo crearlo yo?</h2>
+      <p>
+        Como estudiante universitario yo mismo tengo materiales de semestres pasados
+        que ya no uso y he tenido que comprar cosas que otro compañero tenía guardadas.
+        Por eso:
+      </p>
+      <ul>
+        <li><strong>Entiendo la necesidad:</strong> sé qué materiales se piden en cada semestre y cuánto cuestan.</li>
+        <li><strong>Estoy dentro de la comunidad:</strong> puedo entrevistar y probar el prototipo con compañeros de mi propia universidad.</li>
+        <li><strong>El alcance es realista:</strong> la primera versión solo necesita publicar un objeto, listarlo y mostrar un contacto, algo que puedo hacer con HTML, CSS y JavaScript.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    Trueque U · Proyecto de Interacción Humano-Computador · 2026
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLANAZO</title>
+  <style>
+    /* Colores principales de la marca */
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #fff8f1;
+      color: #2b2118;
+    }
+
+    .contenedor {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    header {
+      background-color: #ff6b35;
+      color: white;
+      padding: 50px 0 60px 0;
+    }
+
+    .logo {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .eslogan {
+      font-size: 22px;
+      margin-top: 10px;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: white;
+      color: #ff6b35;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    section {
+      padding: 30px 0;
+    }
+
+    h2 {
+      color: #ff6b35;
+    }
+
+    /* Tarjetas de los pasos */
+    .pasos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .tarjeta {
+      flex: 1;
+      min-width: 220px;
+      background-color: white;
+      border: 1px solid #f1dcc9;
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .tarjeta h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      color: #8a7563;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="contenedor">
+      <p class="logo">PLANAZO</p>
+      <p class="eslogan">Organiza planes con tus amigos sin perderte en el chat del grupo.</p>
+      <a class="boton" href="#como-funciona">Ver cómo funciona</a>
+    </div>
+  </header>
+
+  <main class="contenedor">
+
+    <!-- Propósito del producto -->
+    <section>
+      <h2>Propósito</h2>
+      <p>
+        PLANAZO ayuda a grupos de amigos a <strong>proponer planes</strong>,
+        <strong>comparar alternativas</strong> (lugar, fecha, costo) y
+        <strong>tomar una decisión</strong> votando, para que la salida sí se concrete
+        y no se quede en "a ver si un día de estos".
+      </p>
+    </section>
+
+    <!-- Problema que resuelve -->
+    <section>
+      <h2>El problema</h2>
+      <p>
+        En el grupo de WhatsApp alguien dice "¿salimos el viernes?", llegan 150 mensajes,
+        cada uno propone un lugar distinto, nadie sabe cuántos van ni cuánto cuesta,
+        y al final el plan se cae. No falta ganas: falta un lugar ordenado para decidir.
+      </p>
+    </section>
+
+    <!-- Cómo funciona -->
+    <section id="como-funciona">
+      <h2>¿Cómo funciona?</h2>
+      <div class="pasos">
+        <div class="tarjeta">
+          <h3>1. Propón</h3>
+          <p>Creas un plan y compartes el enlace con tu grupo.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>2. Compara</h3>
+          <p>Cada amigo agrega alternativas con lugar, fecha y precio aproximado.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>3. Decide</h3>
+          <p>Todos votan y PLANAZO muestra la opción ganadora y quién confirmó.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Para quién es -->
+    <section>
+      <h2>¿Para quién es?</h2>
+      <p>
+        Estudiantes universitarios de 18 a 25 años que se organizan en grupos de amigos
+        o de curso y siempre terminan discutiendo "¿dónde?, ¿cuándo? y ¿cuánto?".
+      </p>
+    </section>
+
+    <!-- Justificación personal -->
+    <section>
+      <h2>¿Por qué puedo crearlo yo?</h2>
+      <p>
+        Soy estudiante universitario y vivo este problema cada semana: soy parte de varios
+        grupos (amigos, curso, trabajos) donde los planes se pierden en el chat.
+        Eso me da tres ventajas:
+      </p>
+      <ul>
+        <li><strong>Conozco el problema de primera mano:</strong> no tengo que imaginar al usuario, soy uno de ellos.</li>
+        <li><strong>Tengo usuarios cerca para probar:</strong> mis compañeros y amigos pueden hacer las pruebas de usabilidad que pide la materia de IHC.</li>
+        <li><strong>El alcance es realista:</strong> una primera versión solo necesita crear un plan, agregar opciones y votar, algo que puedo construir con HTML, CSS y JavaScript que ya vimos en la carrera.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    PLANAZO · Proyecto de Interacción Humano-Computador · 2026
+  </footer>
+
+</body>
+</html>
